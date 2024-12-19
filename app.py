@@ -116,7 +116,7 @@ def display_hn_data(df, title):
     df_display = df_display[['Title', 'Points', 'Comments', 'Date', 'HN URL']]
     
     # Display the dataframe with custom formatting
-    st.markdown(f"### {title}")
+    st.markdown(f"### {title} 🏆")
     st.dataframe(
         df_display,
         column_config={
