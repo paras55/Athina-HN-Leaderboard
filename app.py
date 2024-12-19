@@ -173,7 +173,7 @@ st.header("Top Posts of the Last 24 Hours")
 top_posts = get_top_posts_of_the_day()
 if top_posts:
     df_top_posts = pd.DataFrame(top_posts)
-    display_hn_data(df_top_posts, "Top Posts")
+    #display_hn_data(df_top_posts, "Top Posts")
     plot_bar_chart_with_titles(df_top_posts, "Top Posts: Points by Post Title")
 else:
     st.write("No top posts found.")
