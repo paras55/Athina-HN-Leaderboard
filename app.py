@@ -142,7 +142,7 @@ def display_hn_data(df, title):
 st.set_page_config(page_title="HackerNews Analysis", page_icon="🔍", layout="wide", initial_sidebar_state="expanded")
 
 # Add "Try on Flows" button to the top right
-col1, col2 = st.columns([6,1])
+col1, col2 = st.columns([6,2])
 with col1:
     st.title("Hacker News Leaderboard")
 with col2:
