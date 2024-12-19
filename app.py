@@ -155,6 +155,16 @@ query = st.sidebar.text_input("Enter your search query:", value="")
 strict_search = st.sidebar.checkbox("Strict search for the keyword")
 run_query = st.sidebar.button("Run Query")
 
+st.sidebar.markdown(
+    """
+    ---
+    <p style="text-align: center; font-size: 0.9em; color: #666;">
+        Made by <a href="https://www.athina.ai/" target="_blank" style="color: #007BFF; text-decoration: none;">Athina AI</a>
+    </p>
+    """,
+    unsafe_allow_html=True
+)
+
 # First code output
 st.header("Search Results for Your Query")
 if run_query and query:
