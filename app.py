@@ -58,7 +58,7 @@ def plot_bar_chart_with_titles(df, title):
 
 # Streamlit App
 st.set_page_config(page_title="Hacker News Analysis", page_icon="🔍", layout="wide", initial_sidebar_state="expanded")
-st.title("Hacker News Leaderboard")
+st.title("HackerNews Leaderboard")
 
 # Sidebar for user input
 query = st.sidebar.text_input("Enter your search query:", value="")
