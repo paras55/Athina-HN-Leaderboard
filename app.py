@@ -146,7 +146,9 @@ col1, col2 = st.columns([6,1])
 with col1:
     st.title("Hacker News Leaderboard")
 with col2:
-    st.button("Try on Flows", type="primary")
+    st.link_button("Try on Flows", 
+                   "https://app.staging.athina.ai//apps/8238a4af-5759-475a-883a-2e6ece6cc0be/share",
+                   type="primary")
     
 st.sidebar.markdown("## Search Options")
 query = st.sidebar.text_input("Enter your search query:", value="")
